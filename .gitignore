@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Build output
+dist/
+build/
+out/
+
+# Media and render output (keep source footage out of git)
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+renders/
+cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
